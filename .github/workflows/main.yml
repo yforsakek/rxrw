@@ -1,3 +1,4 @@
+"""
 name: morning
 on:
   schedule:
@@ -30,3 +31,4 @@ jobs:
       START_DATE: ${{ secrets.START_DATE }}
       BIRTHDAY: ${{ secrets.BIRTHDAY }}
       CITY: ${{ secrets.CITY }}
+"""
